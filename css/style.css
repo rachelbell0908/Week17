@@ -1,0 +1,92 @@
+
+.navigation {
+    background-color: #373738;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the logo */
+.navigation img {
+    margin-right: 20px; /* Adjust the logo's left margin for spacing */
+    height: 40px; /* Set the height of the logo as needed */
+    vertical-align: middle; /* Align the logo vertically */
+    padding-left: 20px;
+}
+
+.navigation h1 {
+    margin-left:auto;
+    margin:0;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    color:#fff;
+}
+
+/* Style the navigation menu */
+.navigation ul {
+    list-style: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+
+.navigation ul li {
+    display: inline; 
+    margin-right: 20px;
+}
+
+.content h1 {
+    display:inline-block;
+}
+
+.content h2 {
+    display: inline-block;
+}
+
+.content img {
+    display:inline-block;
+    height: 500px;
+    width:auto;
+    margin-right: 20px;
+    float:inline-end;
+}
+
+.navigation ul li a {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+}
+
+.navigation ul li a:hover {
+    color: #C4DAB7;
+}
+
+.footer {
+    background-color: #373738;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+h1.footer {
+    vertical-align: top;
+    text-align: left;
+}
+p.footer {
+    vertical-align: bottom;
+    text-align: left;
+}
+ul.footer {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+ul.footer a {
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+}
+
+.footer ul li a:hover {
+    color:#C4DAB7;
+}
